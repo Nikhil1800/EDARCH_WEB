@@ -16,6 +16,8 @@ import {
   YAxis,
 } from "recharts";
 
+const BASE_URL = import.meta.env.BASE_URL;
+
 const statsData = [
   {
     name: "Years of Service",
@@ -116,7 +118,7 @@ export function Home() {
         <div
           className="absolute inset-0 bg-cover bg-center bg-no-repeat"
           style={{
-            backgroundImage: "url('/assets/uploads/Edarch1Page.jpg')",
+            backgroundImage: `url('${BASE_URL}assets/uploads/Edarch1Page.jpg')`,
           }}
         />
         <div className="absolute inset-0 bg-gradient-to-b from-black/60 via-black/50 to-black/70" />
@@ -218,7 +220,7 @@ export function Home() {
             </div>
             <div className="rounded-3xl border border-white/10 bg-slate-900 p-5 shadow-card">
               <audio controls className="w-full" preload="metadata">
-                <source src="/assets/uploads/EDARCH_Music.mpeg" />
+                <source src={`${BASE_URL}assets/uploads/EDARCH_Music.mpeg`} />
                 Your browser does not support the audio element.
               </audio>
             </div>
@@ -252,11 +254,11 @@ export function Home() {
             </div>
             <div className="rounded-3xl border border-white/10 bg-slate-900 p-5 shadow-card">
               <audio controls className="w-full" preload="metadata" autoPlay>
-                <source src="/assets/uploads/EDARCH_Music.mpeg" />
+                <source src={`${BASE_URL}assets/uploads/EDARCH_Music.mpeg`} />
                 Your browser does not support the audio element.
               </audio> 
              {/* <audio autoPlay muted style={{ display: 'none' }}>
-              <source src="/assets/uploads/EDARCH_Music.mp3" />
+              <source src={`${BASE_URL}assets/uploads/EDARCH_Music.mp3`} />
                 Your browser does not support the audio element.
               </audio> */}
             </div>
@@ -439,7 +441,7 @@ export function Home() {
         <div className="container mx-auto px-4">
           <div className="rounded-2xl overflow-hidden shadow-card aspect-video">
             <img
-              src="/assets/uploads/Edarch1Page3.jpg"
+              src={`${BASE_URL}assets/uploads/Edarch1Page3.jpg`}
               alt="EDARCH Brochure Cover"
               className="w-full h-full object-contain"
             />

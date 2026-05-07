@@ -3,6 +3,8 @@ import { Link, useRouterState } from "@tanstack/react-router";
 import { Heart, Menu, X } from "lucide-react";
 import { useRef, useState } from "react";
 
+const BASE_URL = import.meta.env.BASE_URL;
+
 const navLinks = [
   { href: "/" as const, label: "Home" },
   { href: "/about" as const, label: "About" },
@@ -33,7 +35,7 @@ export function Navbar() {
         >
           <div className="w-10 h-10 rounded-full overflow-hidden shadow-sm">
             <img
-              src="/assets/uploads/EDARCH_LOGO.jpg"
+              src={`${BASE_URL}assets/uploads/EDARCH_LOGO.jpg`}
               alt="EDARCH Logo"
               className="w-full h-full object-cover"
             />

@@ -85,7 +85,7 @@ export function Recognitions() {
         <div className="container mx-auto px-4">
           <div className="rounded-2xl overflow-hidden shadow-card border border-border max-w-3xl mx-auto">
             <img
-              src="/assets/uploads/Awards_Collage.jpg"
+              src={`${BASE_URL}assets/uploads/Awards_Collage.jpg`}
               alt="EDARCH Recognitions"
               className="w-full object-contain"
             />

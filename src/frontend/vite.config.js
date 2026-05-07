@@ -13,15 +13,29 @@ process.env.STORAGE_GATEWAY_URL =
   process.env.STORAGE_GATEWAY_URL || "https://storage.example.com";
 
 export default defineConfig({
+  root: ".",
+
+  // Use "/" for dev, "/EDARCH_WEB/" for production (GitHub Pages)
+  base: process.env.NODE_ENV === "production" ? "/EDARCH_WEB/" : "/",
+
   logLevel: "error",
+
   build: {
+    outDir: "dist",
     emptyOutDir: true,
     sourcemap: false,
     minify: false,
+
+    // ✅ Explicit entry file
+    rollupOptions: {
+      input: "index.html",
+    },
   },
+
   css: {
     postcss: "./postcss.config.js",
   },
+
   optimizeDeps: {
     esbuildOptions: {
       define: {
@@ -29,6 +43,7 @@ export default defineConfig({
       },
     },
   },
+
   server: {
     proxy: {
       "/api": {
@@ -37,6 +52,7 @@ export default defineConfig({
       },
     },
   },
+
   plugins: [
     environment("all", { prefix: "CANISTER_" }),
     environment("all", { prefix: "DFX_" }),
@@ -44,15 +60,20 @@ export default defineConfig({
     environment(["STORAGE_GATEWAY_URL"]),
     react(),
   ],
+
   resolve: {
     alias: [
       {
         find: "declarations",
-        replacement: fileURLToPath(new URL("../declarations", import.meta.url)),
+        replacement: fileURLToPath(
+          new URL("../declarations", import.meta.url)
+        ),
       },
       {
         find: "@",
-        replacement: fileURLToPath(new URL("./src", import.meta.url)),
+        replacement: fileURLToPath(
+          new URL("./src", import.meta.url)
+        ),
       },
     ],
     dedupe: ["@dfinity/agent"],

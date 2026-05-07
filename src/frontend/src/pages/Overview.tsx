@@ -194,7 +194,7 @@ export function Overview() {
             >
               <div className="rounded-2xl overflow-hidden shadow-card">
                 <img
-                  src="/assets/uploads/All_Studant_Callage.jpg"
+                  src={`${BASE_URL}assets/uploads/All_Studant_Callage.jpg`}
                   alt="EDARCH Vocational Training"
                   className="w-full object-contain"
                 />

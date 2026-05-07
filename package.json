@@ -1,18 +1,14 @@
 {
   "name": "edarch-app",
   "type": "module",
-  "engines": {
-    "node": ">=16.0.0",
-    "pnpm": ">=7.0.0",
-    "npm": "please use pnpm"
-  },
+  "homepage": "https://nikhil1800.github.io/Edarch-2",
   "scripts": {
-    "build": "vite build",
-    "typecheck": "pnpm -r --if-present run typecheck",
-    "check": "pnpm -r --if-present run check",
-    "fix": "pnpm -r --if-present run fix"
+    "dev": "pnpm --dir src/frontend dev",
+    "build": "pnpm --dir src/frontend build",
+    "deploy": "pnpm --dir src/frontend deploy"
   },
   "devDependencies": {
+    "vite": "^5.0.0",
     "sharp": "^0.34.4"
   }
 }

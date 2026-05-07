@@ -9,6 +9,10 @@
 # Production build
 /build
 /dist
+/src/frontend/dist
+
+# Dependencies
+/src/frontend/node_modules
 
 # Environment variables
 .env
