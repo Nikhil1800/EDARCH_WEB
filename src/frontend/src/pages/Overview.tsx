@@ -2,6 +2,7 @@ import { Badge } from "@/components/ui/badge";
 import { Card, CardContent } from "@/components/ui/card";
 import { CheckCircle } from "lucide-react";
 import { motion } from "motion/react";
+import { BASE_URL } from "@/utils/constants";
 
 const steps = [
   {
@@ -194,7 +195,7 @@ export function Overview() {
             >
               <div className="rounded-2xl overflow-hidden shadow-card">
                 <img
-                  src={`${import.meta.env.BASE_URL}assets/uploads/All_Studant_Callage.jpg`}
+                  src={`${BASE_URL}assets/uploads/All_Studant_Callage.jpg`}
                   alt="EDARCH Vocational Training"
                   className="w-full object-contain"
                 />

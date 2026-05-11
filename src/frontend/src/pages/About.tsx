@@ -2,6 +2,7 @@ import { Badge } from "@/components/ui/badge";
 import { Card, CardContent } from "@/components/ui/card";
 import { Target, User, Zap } from "lucide-react";
 import { motion } from "motion/react";
+import { BASE_URL } from "@/utils/constants";
 
 const futurePlans = [
   {
@@ -63,7 +64,7 @@ export function About() {
             >
               <div className="rounded-2xl overflow-hidden shadow-card border border-border max-w-sm mx-auto lg:mx-0">
                 <img
-                  src={`${import.meta.env.BASE_URL}assets/uploads/Dilip_Deshpande.jpg`}
+                  src={`${BASE_URL}assets/uploads/Dilip_Deshpande.jpg`}
                   alt="EDARCH President Page"
                   className="w-full h-auto object-contain"
                 />
