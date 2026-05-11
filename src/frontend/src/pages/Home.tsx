@@ -16,7 +16,8 @@ import {
   YAxis,
 } from "recharts";
 
-const BASE_URL = import.meta.env.BASE_URL;
+//const BASE_URL = import.meta.env.BASE_URL;
+const BASE_URL = "/EDARCH_WEB/";
 
 const statsData = [
   {
@@ -118,7 +119,7 @@ export function Home() {
         <div
           className="absolute inset-0 bg-cover bg-center bg-no-repeat"
           style={{
-            backgroundImage: `url('${BASE_URL}assets/uploads/Edarch1Page.jpg')`,
+            backgroundImage: `url('${import.meta.env.BASE_URL}assets/uploads/Edarch1Page.jpg')`,
           }}
         />
         <div className="absolute inset-0 bg-gradient-to-b from-black/60 via-black/50 to-black/70" />
@@ -254,7 +255,7 @@ export function Home() {
             </div>
             <div className="rounded-3xl border border-white/10 bg-slate-900 p-5 shadow-card">
               <audio controls className="w-full" preload="metadata" autoPlay>
-                <source src={`${BASE_URL}assets/uploads/EDARCH_Music.mpeg`} />
+                <source src={`${import.meta.env.BASE_URL}assets/uploads/EDARCH_Music.mpeg`} />
                 Your browser does not support the audio element.
               </audio> 
              {/* <audio autoPlay muted style={{ display: 'none' }}>
@@ -441,7 +442,7 @@ export function Home() {
         <div className="container mx-auto px-4">
           <div className="rounded-2xl overflow-hidden shadow-card aspect-video">
             <img
-              src={`${BASE_URL}assets/uploads/Edarch1Page3.jpg`}
+              src={`${import.meta.env.BASE_URL}assets/uploads/Edarch1Page3.jpg`}
               alt="EDARCH Brochure Cover"
               className="w-full h-full object-contain"
             />

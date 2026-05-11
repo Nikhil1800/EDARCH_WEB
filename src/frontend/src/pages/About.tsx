@@ -63,7 +63,7 @@ export function About() {
             >
               <div className="rounded-2xl overflow-hidden shadow-card border border-border max-w-sm mx-auto lg:mx-0">
                 <img
-                  src={`${BASE_URL}assets/uploads/Dilip_Deshpande.jpg`}
+                  src={`${import.meta.env.BASE_URL}assets/uploads/Dilip_Deshpande.jpg`}
                   alt="EDARCH President Page"
                   className="w-full h-auto object-contain"
                 />
