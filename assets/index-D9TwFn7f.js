@@ -23140,6 +23140,7 @@ function Button({
     }
   );
 }
+const BASE_URL = "/EDARCH_WEB/".endsWith("/") ? "/EDARCH_WEB/" : "/EDARCH_WEB//";
 const navLinks = [
   { href: "/", label: "Home" },
   { href: "/about", label: "About" },
@@ -23169,7 +23170,7 @@ function Navbar() {
             /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "w-10 h-10 rounded-full overflow-hidden shadow-sm", children: /* @__PURE__ */ jsxRuntimeExports.jsx(
               "img",
               {
-                src: `${"/EDARCH_WEB/"}assets/uploads/EDARCH_LOGO.jpg`,
+                src: `${BASE_URL}assets/uploads/EDARCH_LOGO.jpg`,
                 alt: "EDARCH Logo",
                 className: "w-full h-full object-cover"
               }
@@ -31338,7 +31339,7 @@ function About() {
           children: /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "rounded-2xl overflow-hidden shadow-card border border-border max-w-sm mx-auto lg:mx-0", children: /* @__PURE__ */ jsxRuntimeExports.jsx(
             "img",
             {
-              src: `${"/EDARCH_WEB/"}assets/uploads/Dilip_Deshpande.jpg`,
+              src: `${BASE_URL}assets/uploads/Dilip_Deshpande.jpg`,
               alt: "EDARCH President Page",
               className: "w-full h-auto object-contain"
             }
@@ -44537,7 +44538,7 @@ function Contact() {
         /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "aspect-video overflow-hidden bg-gradient-to-br from-primary/10 via-transparent to-secondary/10", children: /* @__PURE__ */ jsxRuntimeExports.jsx(
           "img",
           {
-            src: `${"/EDARCH_WEB/"}assets/uploads/EDARCH_LOGO.jpg`,
+            src: `${BASE_URL}assets/uploads/EDARCH_LOGO.jpg`,
             alt: "EDARCH Brochure Cover",
             className: "w-full h-full object-cover transition-transform duration-500 hover:scale-105"
           }
@@ -44651,7 +44652,7 @@ function Home() {
         {
           className: "absolute inset-0 bg-cover bg-center bg-no-repeat",
           style: {
-            backgroundImage: `url('${"/EDARCH_WEB/"}assets/uploads/Edarch1Page.jpg')`
+            backgroundImage: `url('${BASE_URL}assets/uploads/Edarch1Page.jpg')`
           }
         }
       ),
@@ -44715,7 +44716,7 @@ function Home() {
             /* @__PURE__ */ jsxRuntimeExports.jsx("p", { className: "text-sm md:text-base text-slate-200 max-w-2xl leading-relaxed", children: "Enjoy a short audio emotions to EDARCH’s mission, and the people we serve. Use the audio player to start playback when you’re ready." })
           ] }),
           /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "rounded-3xl border border-white/10 bg-slate-900 p-5 shadow-card", children: /* @__PURE__ */ jsxRuntimeExports.jsxs("audio", { controls: true, className: "w-full", preload: "metadata", autoPlay: true, children: [
-            /* @__PURE__ */ jsxRuntimeExports.jsx("source", { src: `${"/EDARCH_WEB/"}assets/uploads/EDARCH_Music.mpeg` }),
+            /* @__PURE__ */ jsxRuntimeExports.jsx("source", { src: `${BASE_URL}assets/uploads/EDARCH_Music.mpeg` }),
             "Your browser does not support the audio element."
           ] }) })
         ]
@@ -44829,7 +44830,7 @@ function Home() {
     /* @__PURE__ */ jsxRuntimeExports.jsx("section", { className: "py-0 bg-white", children: /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "container mx-auto px-4", children: /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "rounded-2xl overflow-hidden shadow-card aspect-video", children: /* @__PURE__ */ jsxRuntimeExports.jsx(
       "img",
       {
-        src: `${"/EDARCH_WEB/"}assets/uploads/Edarch1Page3.jpg`,
+        src: `${BASE_URL}assets/uploads/Edarch1Page3.jpg`,
         alt: "EDARCH Brochure Cover",
         className: "w-full h-full object-contain"
       }
@@ -44990,7 +44991,7 @@ function Overview() {
             children: /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "rounded-2xl overflow-hidden shadow-card", children: /* @__PURE__ */ jsxRuntimeExports.jsx(
               "img",
               {
-                src: `${"/EDARCH_WEB/"}assets/uploads/All_Studant_Callage.jpg`,
+                src: `${BASE_URL}assets/uploads/All_Studant_Callage.jpg`,
                 alt: "EDARCH Vocational Training",
                 className: "w-full object-contain"
               }
@@ -45096,7 +45097,7 @@ function Recognitions() {
     /* @__PURE__ */ jsxRuntimeExports.jsx("section", { className: "py-12 bg-white", children: /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "container mx-auto px-4", children: /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "rounded-2xl overflow-hidden shadow-card border border-border max-w-3xl mx-auto", children: /* @__PURE__ */ jsxRuntimeExports.jsx(
       "img",
       {
-        src: `${"/EDARCH_WEB/"}assets/uploads/Awards_Collage.jpg`,
+        src: `${BASE_URL}assets/uploads/Awards_Collage.jpg`,
         alt: "EDARCH Recognitions",
         className: "w-full object-contain"
       }
