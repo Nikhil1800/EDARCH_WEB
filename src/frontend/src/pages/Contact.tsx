@@ -244,7 +244,7 @@ export function Contact() {
                   <div className="mx-auto max-w-3xl overflow-hidden rounded-[28px] border border-primary/15 bg-gradient-to-b from-white to-slate-50 shadow-2xl shadow-slate-200/60 transition-transform duration-300 hover:-translate-y-1">
                     <div className="aspect-video overflow-hidden bg-gradient-to-br from-primary/10 via-transparent to-secondary/10">
                       <img
-                        src={`${BASE_URL}assets/uploads/EDARCH_LOGO.jpg`}
+                        src={`${import.meta.env.BASE_URL}assets/uploads/EDARCH_LOGO.jpg`}
                         alt="EDARCH Brochure Cover"
                         className="w-full h-full object-cover transition-transform duration-500 hover:scale-105"
                       />
