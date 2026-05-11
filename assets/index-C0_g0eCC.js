@@ -45211,9 +45211,17 @@ function Recognitions() {
     ] }) })
   ] });
 }
+function ScrollToTop() {
+  const routerState = useRouterState();
+  reactExports.useEffect(() => {
+    window.scrollTo(0, 0);
+  }, [routerState.location]);
+  return null;
+}
 const queryClient$1 = new QueryClient();
 const rootRoute = createRootRoute({
   component: () => /* @__PURE__ */ jsxRuntimeExports.jsxs(QueryClientProvider, { client: queryClient$1, children: [
+    /* @__PURE__ */ jsxRuntimeExports.jsx(ScrollToTop, {}),
     /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "min-h-screen flex flex-col", children: [
       /* @__PURE__ */ jsxRuntimeExports.jsx(Navbar, {}),
       /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "flex-1", children: /* @__PURE__ */ jsxRuntimeExports.jsx(Outlet, {}) }),
