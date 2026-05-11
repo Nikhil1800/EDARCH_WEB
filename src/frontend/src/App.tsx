@@ -8,6 +8,7 @@ import { Home } from "@/pages/Home";
 import { Overview } from "@/pages/Overview";
 import { Recognitions } from "@/pages/Recognitions";
 import { QueryClient, QueryClientProvider } from "@tanstack/react-query";
+import { useEffect } from "react";
 import {
   Link,
   Outlet,
@@ -21,11 +22,23 @@ import {
 
 export { Link, useRouterState };
 
+// ScrollToTop Component
+function ScrollToTop() {
+  const routerState = useRouterState();
+  
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, [routerState.location]);
+
+  return null;
+}
+
 const queryClient = new QueryClient();
 
 const rootRoute = createRootRoute({
   component: () => (
     <QueryClientProvider client={queryClient}>
+      <ScrollToTop />
       <div className="min-h-screen flex flex-col">
         <Navbar />
         <div className="flex-1">
