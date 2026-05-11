@@ -18,7 +18,6 @@ export default defineConfig({
   // Use "/" for dev, "/EDARCH_WEB/" for production (GitHub Pages)
   //base: process.env.NODE_ENV === "production" ? "/EDARCH_WEB/" : "/",
   base: "/EDARCH_WEB/",
-  plugins: [react()],
   logLevel: "error",
 
   build: {
