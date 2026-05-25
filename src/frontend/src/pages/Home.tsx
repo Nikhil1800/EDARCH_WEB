@@ -58,25 +58,25 @@ const chartData = [
 const quickLinks = [
   {
     title: "About EDARCH",
-    desc: "Learn about our founder Dilip Deshpande and our mission for sustainable rehabilitation.",
+    desc: "Our founder Dr. Dilip Deshpande and our mission for sustainable rehabilitation.",
     href: "/about" as const,
     color: "from-sky-50 to-teal-50 border-teal-200",
   },
   {
     title: "Overview",
-    desc: "Understand our unique vocational training model and why EDARCH stands apart.",
+    desc: "Understand our unique vocational training module and why EDARCH stands unique.",
     href: "/overview" as const,
     color: "from-orange-50 to-amber-50 border-orange-200",
   },
   {
     title: "Recognitions",
-    desc: "National awards, ISO certification, and recognition from top leaders of India.",
+    desc: "National Award, International Award, Entrepreneurial Award, ISO certification, and recognition from top leaders of India.",
     href: "/recognitions" as const,
     color: "from-green-50 to-emerald-50 border-green-200",
   },
   {
     title: "Support Us",
-    desc: "Join our mission. Donate funds, infrastructure, or your time and expertise.",
+    desc: "Be a part of our mission. Identify beneficiaries and Tie up  with industries, donate funds, infrastructure, or your time and expertise.",
     href: "/appeal" as const,
     color: "from-rose-50 to-pink-50 border-rose-200",
   },

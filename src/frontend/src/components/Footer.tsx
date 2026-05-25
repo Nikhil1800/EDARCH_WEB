@@ -24,9 +24,8 @@ export function Footer() {
               </div>
             </div>
             <p className="text-sm text-white/70 leading-relaxed">
-              Entrepreneurship Development And Rehabilitation Centre for the
-              Handicapped — empowering Divyang persons through skill
-              development.
+              Entrepreneurship Development And Rehabilitation Centre for the Handicapped — 
+              empowering and sustainable rehabilitation of Divyang persons through skill development.
             </p>
           </div>
           <div>
@@ -39,6 +38,7 @@ export function Footer() {
                   { to: "/", label: "Home" },
                   { to: "/about", label: "About" },
                   { to: "/overview", label: "Overview" },
+                  { to: "/products-manufacture", label: "Products Manufactured" },
                   { to: "/recognitions", label: "Recognitions" },
                   { to: "/appeal", label: "Appeal" },
                   { to: "/contact", label: "Contact" },

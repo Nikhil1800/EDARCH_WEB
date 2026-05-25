@@ -6,6 +6,7 @@ import { Appeal } from "@/pages/Appeal";
 import { Contact } from "@/pages/Contact";
 import { Home } from "@/pages/Home";
 import { Overview } from "@/pages/Overview";
+import { ProductsManufacture } from "@/pages/ProductsManufacture";
 import { Recognitions } from "@/pages/Recognitions";
 import { QueryClient, QueryClientProvider } from "@tanstack/react-query";
 import { useEffect } from "react";
@@ -66,6 +67,11 @@ const overviewRoute = createRoute({
   path: "/overview",
   component: Overview,
 });
+const productsManufactureRoute = createRoute({
+  getParentRoute: () => rootRoute,
+  path: "/products-manufacture",
+  component: ProductsManufacture,
+});
 const recognitionsRoute = createRoute({
   getParentRoute: () => rootRoute,
   path: "/recognitions",
@@ -86,6 +92,7 @@ const routeTree = rootRoute.addChildren([
   homeRoute,
   aboutRoute,
   overviewRoute,
+  productsManufactureRoute,
   recognitionsRoute,
   appealRoute,
   contactRoute,

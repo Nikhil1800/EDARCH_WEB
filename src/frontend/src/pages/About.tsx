@@ -32,6 +32,34 @@ const immediatePlans = [
   "Launching a fund collection drive through NRIs, NGOs, and CSR contributions.",
 ];
 
+const strugglingGoals = [
+  {
+    title: "Beneficiaries",
+    // subtitle: "Critical machinery support",
+    desc: "Increase Divyang beneficiaries up to 500 nos of all categories including visually impaired, hearing impaired, mentally challenged, orthopedically handicapped between age group 18 to 40 years.",
+  },
+  {
+    title: "Tie-up Industries",
+    // subtitle: "Skilled inclusive teaching",
+    desc: "Increase the number of tie-up industries up to 250 numbers for manufacture and supply of Variety of products.",
+  },
+  {
+    title: "Product Range",
+    // subtitle: "Long-term partnerships",
+    desc: "Increase product range up to 75 numbers for skill development and manufacturing by divyang persons.",
+  },
+  {
+    title: "Manufacturing Shades",
+    // subtitle: "Reliable trainee mobility",
+    desc: "Establish shades owned by individual heterogenous groups of divyang person manufacturing their own products.",
+  },
+  {
+    title: "Unique Center",
+    // subtitle: "Growth with care",
+    desc: "Establish a unique center where in all types of divyangs like educated, uneducated totally dependant and multiple disability children could be housed for their permanent rehabilitation and welfare.",
+  },
+];
+
 export function About() {
   return (
     <main className="pt-20">
@@ -46,8 +74,8 @@ export function About() {
               Our Story & Leadership
             </h1>
             <p className="text-muted-foreground font-body max-w-2xl mx-auto">
-              Meet the visionary behind EDARCH and learn about our plans to
-              empower Divyang persons across India and the world.
+              Meet the visionary behind EDARCH and our plans to
+              empower Divyang persons across India and the globe.
             </p>
           </motion.div>
         </div>
@@ -86,37 +114,40 @@ export function About() {
                 </h2>
               </div>
               <h3 className="font-display text-lg md:text-2xl font-semibold text-accent mb-6">
-                Mr. Dilip Deshpande
+                Dr. Dilip Deshpande
               </h3>
               <p className="text-foreground/80 font-body text-sm md:text-base leading-relaxed mb-4">
                 Dilip Deshpande, founder president of EDARCH is a Chartered
-                Engineer and was doing his own business as Industrial Safety
+                Engineer and was engaged in his own business as Industrial Safety
                 Consultant for 32 years with his offices in Mumbai, Pune and
                 Panjim-Goa.
               </p>
               <p className="text-foreground/80 font-body text-sm md:text-base leading-relaxed mb-4">
-                He was also a President of National Safety Organisation for 12
-                years. Now he has taken retirement from his business and is
-                devoting his life for the social cause and in particular for the
+                He was President of National Safety Organisation for 12
+                years. Now he opted for retirement from his business and
+                devoted his life for the social cause and in particular for the
                 sustainable rehabilitation of Divyang — Differently Abled
                 Persons by developing a unique model of Skill and
                 Entrepreneurship Development.
               </p>
               <p className="text-foreground/80 font-body text-sm md:text-base leading-relaxed mb-6">
-                He is also a past president of Rotary Club. He is the recipient
-                of Parkhe Award, Udyogshri Award, Pune Bhushan Award and many
+                He was District Director of Rotary District 3131 twice and is a past president of Rotary Club. He is the recipient
+                of National Award, International Award, Bussness Forum Award, and many
                 more.
               </p>
               <div className="flex flex-wrap items-start justify-start gap-2">
                 {[
                   "Chartered Engineer",
+                  "National Award",
+                  "International Award",
+                  "Parkhe Award", 
+                  "India business forum award",
                   "Past Rotary President",
-                  "Parkhe Award",
                   "Udyogshri Award",
                   "Pune Bhushan Award",
                   "Gurukul Award",
                   "Darpan Ratna",
-                  "Honorary Doctorate",
+                 
                 ].map((award) => (
                   <Badge
                     key={award}
@@ -207,6 +238,58 @@ export function About() {
               </CardContent>
             </Card>
           </motion.div>
+        </div>
+      </section>
+
+      <section className="py-16 bg-background">
+        <div className="container mx-auto px-4">
+          <motion.div
+            initial={{ opacity: 0, y: 20 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true }}
+            className="text-center mb-10"
+          >
+            <div className="flex items-center justify-center gap-3 mb-3">
+              <Zap className="w-6 h-6 text-accent" />
+              <h2 className="font-display text-3xl font-bold text-foreground">
+                We Are Struggling to Achieve Immediate Goals
+              </h2>
+            </div>
+            {/* <p className="max-w-2xl mx-auto text-foreground/70 font-body text-sm md:text-base leading-relaxed">
+              These are the key challenge areas we are addressing right now as we work to deliver impact without compromising quality or inclusion.
+            </p> */}
+          </motion.div>
+
+          <div className="grid gap-6 sm:grid-cols-2 xl:grid-cols-3">
+            {strugglingGoals.map((goal, i) => (
+              <motion.div
+                key={goal.title}
+                initial={{ opacity: 0, y: 15 }}
+                whileInView={{ opacity: 1, y: 0 }}
+                viewport={{ once: true }}
+                transition={{ delay: i * 0.08 }}
+              >
+                <Card className="h-full shadow-card hover:shadow-hover transition-shadow border border-border">
+                  <CardContent className="p-6">
+                    <div className="flex items-center justify-between mb-2">
+                      {/* <span className="rounded-full bg-primary/10 text-primary px-3 py-1 text-xs font-semibold uppercase tracking-[0.2em]">
+                        {i + 1}
+                      </span> */}
+                      {/* <Badge variant="secondary" className="text-xs md:text-sm">
+                        {goal.subtitle}
+                      </Badge> */}
+                    </div>
+                    <h3 className="font-display text-xl font-semibold text-foreground mb-2">
+                      {goal.title}
+                    </h3>
+                    <p className="text-muted-foreground font-body text-sm leading-relaxed">
+                      {goal.desc}
+                    </p>
+                  </CardContent>
+                </Card>
+              </motion.div>
+            ))}
+          </div>
         </div>
       </section>
     </main>
