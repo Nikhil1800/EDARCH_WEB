@@ -20055,7 +20055,7 @@ const createLucideIcon = (iconName, iconNode) => {
  * This source code is licensed under the ISC license.
  * See the LICENSE file in the root directory of this source tree.
  */
-const __iconNode$n = [
+const __iconNode$p = [
   [
     "path",
     {
@@ -20064,25 +20064,25 @@ const __iconNode$n = [
     }
   ]
 ];
-const Activity = createLucideIcon("activity", __iconNode$n);
+const Activity = createLucideIcon("activity", __iconNode$p);
 /**
  * @license lucide-react v0.511.0 - ISC
  *
  * This source code is licensed under the ISC license.
  * See the LICENSE file in the root directory of this source tree.
  */
-const __iconNode$m = [
+const __iconNode$o = [
   ["path", { d: "M5 12h14", key: "1ays0h" }],
   ["path", { d: "m12 5 7 7-7 7", key: "xquz4c" }]
 ];
-const ArrowRight = createLucideIcon("arrow-right", __iconNode$m);
+const ArrowRight = createLucideIcon("arrow-right", __iconNode$o);
 /**
  * @license lucide-react v0.511.0 - ISC
  *
  * This source code is licensed under the ISC license.
  * See the LICENSE file in the root directory of this source tree.
  */
-const __iconNode$l = [
+const __iconNode$n = [
   [
     "path",
     {
@@ -20092,7 +20092,29 @@ const __iconNode$l = [
   ],
   ["circle", { cx: "12", cy: "8", r: "6", key: "1vp47v" }]
 ];
-const Award = createLucideIcon("award", __iconNode$l);
+const Award = createLucideIcon("award", __iconNode$n);
+/**
+ * @license lucide-react v0.511.0 - ISC
+ *
+ * This source code is licensed under the ISC license.
+ * See the LICENSE file in the root directory of this source tree.
+ */
+const __iconNode$m = [
+  ["path", { d: "M21.801 10A10 10 0 1 1 17 3.335", key: "yps3ct" }],
+  ["path", { d: "m9 11 3 3L22 4", key: "1pflzl" }]
+];
+const CircleCheckBig = createLucideIcon("circle-check-big", __iconNode$m);
+/**
+ * @license lucide-react v0.511.0 - ISC
+ *
+ * This source code is licensed under the ISC license.
+ * See the LICENSE file in the root directory of this source tree.
+ */
+const __iconNode$l = [
+  ["circle", { cx: "12", cy: "12", r: "10", key: "1mglay" }],
+  ["polyline", { points: "12 6 12 12 16 14", key: "68esgv" }]
+];
+const Clock = createLucideIcon("clock", __iconNode$l);
 /**
  * @license lucide-react v0.511.0 - ISC
  *
@@ -20100,10 +20122,10 @@ const Award = createLucideIcon("award", __iconNode$l);
  * See the LICENSE file in the root directory of this source tree.
  */
 const __iconNode$k = [
-  ["path", { d: "M21.801 10A10 10 0 1 1 17 3.335", key: "yps3ct" }],
-  ["path", { d: "m9 11 3 3L22 4", key: "1pflzl" }]
+  ["line", { x1: "12", x2: "12", y1: "2", y2: "22", key: "7eqyqh" }],
+  ["path", { d: "M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6", key: "1b0p4s" }]
 ];
-const CircleCheckBig = createLucideIcon("circle-check-big", __iconNode$k);
+const DollarSign = createLucideIcon("dollar-sign", __iconNode$k);
 /**
  * @license lucide-react v0.511.0 - ISC
  *
@@ -20111,28 +20133,6 @@ const CircleCheckBig = createLucideIcon("circle-check-big", __iconNode$k);
  * See the LICENSE file in the root directory of this source tree.
  */
 const __iconNode$j = [
-  ["circle", { cx: "12", cy: "12", r: "10", key: "1mglay" }],
-  ["polyline", { points: "12 6 12 12 16 14", key: "68esgv" }]
-];
-const Clock = createLucideIcon("clock", __iconNode$j);
-/**
- * @license lucide-react v0.511.0 - ISC
- *
- * This source code is licensed under the ISC license.
- * See the LICENSE file in the root directory of this source tree.
- */
-const __iconNode$i = [
-  ["line", { x1: "12", x2: "12", y1: "2", y2: "22", key: "7eqyqh" }],
-  ["path", { d: "M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6", key: "1b0p4s" }]
-];
-const DollarSign = createLucideIcon("dollar-sign", __iconNode$i);
-/**
- * @license lucide-react v0.511.0 - ISC
- *
- * This source code is licensed under the ISC license.
- * See the LICENSE file in the root directory of this source tree.
- */
-const __iconNode$h = [
   ["path", { d: "M12 16h.01", key: "1drbdi" }],
   ["path", { d: "M16 16h.01", key: "1f9h7w" }],
   [
@@ -20144,26 +20144,26 @@ const __iconNode$h = [
   ],
   ["path", { d: "M8 16h.01", key: "18s6g9" }]
 ];
-const Factory = createLucideIcon("factory", __iconNode$h);
+const Factory = createLucideIcon("factory", __iconNode$j);
 /**
  * @license lucide-react v0.511.0 - ISC
  *
  * This source code is licensed under the ISC license.
  * See the LICENSE file in the root directory of this source tree.
  */
-const __iconNode$g = [
+const __iconNode$i = [
   ["circle", { cx: "12", cy: "12", r: "10", key: "1mglay" }],
   ["path", { d: "M12 2a14.5 14.5 0 0 0 0 20 14.5 14.5 0 0 0 0-20", key: "13o1zl" }],
   ["path", { d: "M2 12h20", key: "9i4pu4" }]
 ];
-const Globe = createLucideIcon("globe", __iconNode$g);
+const Globe = createLucideIcon("globe", __iconNode$i);
 /**
  * @license lucide-react v0.511.0 - ISC
  *
  * This source code is licensed under the ISC license.
  * See the LICENSE file in the root directory of this source tree.
  */
-const __iconNode$f = [
+const __iconNode$h = [
   ["path", { d: "m11 17 2 2a1 1 0 1 0 3-3", key: "efffak" }],
   [
     "path",
@@ -20176,14 +20176,14 @@ const __iconNode$f = [
   ["path", { d: "M3 3 2 14l6.5 6.5a1 1 0 1 0 3-3", key: "1uvwmv" }],
   ["path", { d: "M3 4h8", key: "1ep09j" }]
 ];
-const Handshake = createLucideIcon("handshake", __iconNode$f);
+const Handshake = createLucideIcon("handshake", __iconNode$h);
 /**
  * @license lucide-react v0.511.0 - ISC
  *
  * This source code is licensed under the ISC license.
  * See the LICENSE file in the root directory of this source tree.
  */
-const __iconNode$e = [
+const __iconNode$g = [
   [
     "path",
     {
@@ -20192,14 +20192,14 @@ const __iconNode$e = [
     }
   ]
 ];
-const Heart = createLucideIcon("heart", __iconNode$e);
+const Heart = createLucideIcon("heart", __iconNode$g);
 /**
  * @license lucide-react v0.511.0 - ISC
  *
  * This source code is licensed under the ISC license.
  * See the LICENSE file in the root directory of this source tree.
  */
-const __iconNode$d = [
+const __iconNode$f = [
   ["path", { d: "M15 21v-8a1 1 0 0 0-1-1h-4a1 1 0 0 0-1 1v8", key: "5wwlr5" }],
   [
     "path",
@@ -20209,25 +20209,25 @@ const __iconNode$d = [
     }
   ]
 ];
-const House = createLucideIcon("house", __iconNode$d);
+const House = createLucideIcon("house", __iconNode$f);
 /**
  * @license lucide-react v0.511.0 - ISC
  *
  * This source code is licensed under the ISC license.
  * See the LICENSE file in the root directory of this source tree.
  */
-const __iconNode$c = [
+const __iconNode$e = [
   ["path", { d: "m22 7-8.991 5.727a2 2 0 0 1-2.009 0L2 7", key: "132q7q" }],
   ["rect", { x: "2", y: "4", width: "20", height: "16", rx: "2", key: "izxlao" }]
 ];
-const Mail = createLucideIcon("mail", __iconNode$c);
+const Mail = createLucideIcon("mail", __iconNode$e);
 /**
  * @license lucide-react v0.511.0 - ISC
  *
  * This source code is licensed under the ISC license.
  * See the LICENSE file in the root directory of this source tree.
  */
-const __iconNode$b = [
+const __iconNode$d = [
   [
     "path",
     {
@@ -20237,7 +20237,31 @@ const __iconNode$b = [
   ],
   ["circle", { cx: "12", cy: "10", r: "3", key: "ilqhr7" }]
 ];
-const MapPin = createLucideIcon("map-pin", __iconNode$b);
+const MapPin = createLucideIcon("map-pin", __iconNode$d);
+/**
+ * @license lucide-react v0.511.0 - ISC
+ *
+ * This source code is licensed under the ISC license.
+ * See the LICENSE file in the root directory of this source tree.
+ */
+const __iconNode$c = [
+  ["path", { d: "M4 12h16", key: "1lakjw" }],
+  ["path", { d: "M4 18h16", key: "19g7jn" }],
+  ["path", { d: "M4 6h16", key: "1o0s65" }]
+];
+const Menu = createLucideIcon("menu", __iconNode$c);
+/**
+ * @license lucide-react v0.511.0 - ISC
+ *
+ * This source code is licensed under the ISC license.
+ * See the LICENSE file in the root directory of this source tree.
+ */
+const __iconNode$b = [
+  ["rect", { width: "20", height: "14", x: "2", y: "3", rx: "2", key: "48i651" }],
+  ["line", { x1: "8", x2: "16", y1: "21", y2: "21", key: "1svkeh" }],
+  ["line", { x1: "12", x2: "12", y1: "17", y2: "21", key: "vw1qmm" }]
+];
+const Monitor = createLucideIcon("monitor", __iconNode$b);
 /**
  * @license lucide-react v0.511.0 - ISC
  *
@@ -20245,30 +20269,6 @@ const MapPin = createLucideIcon("map-pin", __iconNode$b);
  * See the LICENSE file in the root directory of this source tree.
  */
 const __iconNode$a = [
-  ["path", { d: "M4 12h16", key: "1lakjw" }],
-  ["path", { d: "M4 18h16", key: "19g7jn" }],
-  ["path", { d: "M4 6h16", key: "1o0s65" }]
-];
-const Menu = createLucideIcon("menu", __iconNode$a);
-/**
- * @license lucide-react v0.511.0 - ISC
- *
- * This source code is licensed under the ISC license.
- * See the LICENSE file in the root directory of this source tree.
- */
-const __iconNode$9 = [
-  ["rect", { width: "20", height: "14", x: "2", y: "3", rx: "2", key: "48i651" }],
-  ["line", { x1: "8", x2: "16", y1: "21", y2: "21", key: "1svkeh" }],
-  ["line", { x1: "12", x2: "12", y1: "17", y2: "21", key: "vw1qmm" }]
-];
-const Monitor = createLucideIcon("monitor", __iconNode$9);
-/**
- * @license lucide-react v0.511.0 - ISC
- *
- * This source code is licensed under the ISC license.
- * See the LICENSE file in the root directory of this source tree.
- */
-const __iconNode$8 = [
   [
     "path",
     {
@@ -20280,14 +20280,14 @@ const __iconNode$8 = [
   ["polyline", { points: "3.29 7 12 12 20.71 7", key: "ousv84" }],
   ["path", { d: "m7.5 4.27 9 5.15", key: "1c824w" }]
 ];
-const Package = createLucideIcon("package", __iconNode$8);
+const Package = createLucideIcon("package", __iconNode$a);
 /**
  * @license lucide-react v0.511.0 - ISC
  *
  * This source code is licensed under the ISC license.
  * See the LICENSE file in the root directory of this source tree.
  */
-const __iconNode$7 = [
+const __iconNode$9 = [
   [
     "path",
     {
@@ -20296,14 +20296,14 @@ const __iconNode$7 = [
     }
   ]
 ];
-const Phone = createLucideIcon("phone", __iconNode$7);
+const Phone = createLucideIcon("phone", __iconNode$9);
 /**
  * @license lucide-react v0.511.0 - ISC
  *
  * This source code is licensed under the ISC license.
  * See the LICENSE file in the root directory of this source tree.
  */
-const __iconNode$6 = [
+const __iconNode$8 = [
   [
     "path",
     {
@@ -20329,7 +20329,41 @@ const __iconNode$6 = [
   ],
   ["path", { d: "m13.378 9.633 4.096 1.098 1.097-4.096", key: "1oe83g" }]
 ];
-const Recycle = createLucideIcon("recycle", __iconNode$6);
+const Recycle = createLucideIcon("recycle", __iconNode$8);
+/**
+ * @license lucide-react v0.511.0 - ISC
+ *
+ * This source code is licensed under the ISC license.
+ * See the LICENSE file in the root directory of this source tree.
+ */
+const __iconNode$7 = [
+  ["circle", { cx: "6", cy: "6", r: "3", key: "1lh9wr" }],
+  ["path", { d: "M8.12 8.12 12 12", key: "1alkpv" }],
+  ["path", { d: "M20 4 8.12 15.88", key: "xgtan2" }],
+  ["circle", { cx: "6", cy: "18", r: "3", key: "fqmcym" }],
+  ["path", { d: "M14.8 14.8 20 20", key: "ptml3r" }]
+];
+const Scissors = createLucideIcon("scissors", __iconNode$7);
+/**
+ * @license lucide-react v0.511.0 - ISC
+ *
+ * This source code is licensed under the ISC license.
+ * See the LICENSE file in the root directory of this source tree.
+ */
+const __iconNode$6 = [
+  [
+    "path",
+    {
+      d: "M9.937 15.5A2 2 0 0 0 8.5 14.063l-6.135-1.582a.5.5 0 0 1 0-.962L8.5 9.936A2 2 0 0 0 9.937 8.5l1.582-6.135a.5.5 0 0 1 .963 0L14.063 8.5A2 2 0 0 0 15.5 9.937l6.135 1.581a.5.5 0 0 1 0 .964L15.5 14.063a2 2 0 0 0-1.437 1.437l-1.582 6.135a.5.5 0 0 1-.963 0z",
+      key: "4pj2yx"
+    }
+  ],
+  ["path", { d: "M20 3v4", key: "1olli1" }],
+  ["path", { d: "M22 5h-4", key: "1gvqau" }],
+  ["path", { d: "M4 17v2", key: "vumght" }],
+  ["path", { d: "M5 18H3", key: "zchphs" }]
+];
+const Sparkles = createLucideIcon("sparkles", __iconNode$6);
 /**
  * @license lucide-react v0.511.0 - ISC
  *
@@ -20337,13 +20371,11 @@ const Recycle = createLucideIcon("recycle", __iconNode$6);
  * See the LICENSE file in the root directory of this source tree.
  */
 const __iconNode$5 = [
-  ["circle", { cx: "6", cy: "6", r: "3", key: "1lh9wr" }],
-  ["path", { d: "M8.12 8.12 12 12", key: "1alkpv" }],
-  ["path", { d: "M20 4 8.12 15.88", key: "xgtan2" }],
-  ["circle", { cx: "6", cy: "18", r: "3", key: "fqmcym" }],
-  ["path", { d: "M14.8 14.8 20 20", key: "ptml3r" }]
+  ["circle", { cx: "12", cy: "12", r: "10", key: "1mglay" }],
+  ["circle", { cx: "12", cy: "12", r: "6", key: "1vlfrh" }],
+  ["circle", { cx: "12", cy: "12", r: "2", key: "1c9p78" }]
 ];
-const Scissors = createLucideIcon("scissors", __iconNode$5);
+const Target = createLucideIcon("target", __iconNode$5);
 /**
  * @license lucide-react v0.511.0 - ISC
  *
@@ -20351,11 +20383,10 @@ const Scissors = createLucideIcon("scissors", __iconNode$5);
  * See the LICENSE file in the root directory of this source tree.
  */
 const __iconNode$4 = [
-  ["circle", { cx: "12", cy: "12", r: "10", key: "1mglay" }],
-  ["circle", { cx: "12", cy: "12", r: "6", key: "1vlfrh" }],
-  ["circle", { cx: "12", cy: "12", r: "2", key: "1c9p78" }]
+  ["path", { d: "M19 21v-2a4 4 0 0 0-4-4H9a4 4 0 0 0-4 4v2", key: "975kel" }],
+  ["circle", { cx: "12", cy: "7", r: "4", key: "17ys0d" }]
 ];
-const Target = createLucideIcon("target", __iconNode$4);
+const User = createLucideIcon("user", __iconNode$4);
 /**
  * @license lucide-react v0.511.0 - ISC
  *
@@ -20363,10 +20394,12 @@ const Target = createLucideIcon("target", __iconNode$4);
  * See the LICENSE file in the root directory of this source tree.
  */
 const __iconNode$3 = [
-  ["path", { d: "M19 21v-2a4 4 0 0 0-4-4H9a4 4 0 0 0-4 4v2", key: "975kel" }],
-  ["circle", { cx: "12", cy: "7", r: "4", key: "17ys0d" }]
+  ["path", { d: "M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2", key: "1yyitq" }],
+  ["path", { d: "M16 3.128a4 4 0 0 1 0 7.744", key: "16gr8j" }],
+  ["path", { d: "M22 21v-2a4 4 0 0 0-3-3.87", key: "kshegd" }],
+  ["circle", { cx: "9", cy: "7", r: "4", key: "nufk8" }]
 ];
-const User = createLucideIcon("user", __iconNode$3);
+const Users = createLucideIcon("users", __iconNode$3);
 /**
  * @license lucide-react v0.511.0 - ISC
  *
@@ -20374,12 +20407,18 @@ const User = createLucideIcon("user", __iconNode$3);
  * See the LICENSE file in the root directory of this source tree.
  */
 const __iconNode$2 = [
-  ["path", { d: "M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2", key: "1yyitq" }],
-  ["path", { d: "M16 3.128a4 4 0 0 1 0 7.744", key: "16gr8j" }],
-  ["path", { d: "M22 21v-2a4 4 0 0 0-3-3.87", key: "kshegd" }],
-  ["circle", { cx: "9", cy: "7", r: "4", key: "nufk8" }]
+  ["path", { d: "M18 21V10a1 1 0 0 0-1-1H7a1 1 0 0 0-1 1v11", key: "pb2vm6" }],
+  [
+    "path",
+    {
+      d: "M22 19a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V8a2 2 0 0 1 1.132-1.803l7.95-3.974a2 2 0 0 1 1.837 0l7.948 3.974A2 2 0 0 1 22 8z",
+      key: "doq5xv"
+    }
+  ],
+  ["path", { d: "M6 13h12", key: "yf64js" }],
+  ["path", { d: "M6 17h12", key: "1jwigz" }]
 ];
-const Users = createLucideIcon("users", __iconNode$2);
+const Warehouse = createLucideIcon("warehouse", __iconNode$2);
 /**
  * @license lucide-react v0.511.0 - ISC
  *
@@ -20419,7 +20458,7 @@ function Footer() {
             /* @__PURE__ */ jsxRuntimeExports.jsx("p", { className: "text-xs text-white/60", children: "ISO 9001-2008 Accredited" })
           ] })
         ] }),
-        /* @__PURE__ */ jsxRuntimeExports.jsx("p", { className: "text-sm text-white/70 leading-relaxed", children: "Entrepreneurship Development And Rehabilitation Centre for the Handicapped — empowering Divyang persons through skill development." })
+        /* @__PURE__ */ jsxRuntimeExports.jsx("p", { className: "text-sm text-white/70 leading-relaxed", children: "Entrepreneurship Development And Rehabilitation Centre for the Handicapped — empowering and sustainable rehabilitation of Divyang persons through skill development." })
       ] }),
       /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { children: [
         /* @__PURE__ */ jsxRuntimeExports.jsx("h3", { className: "font-display font-semibold text-white mb-4", children: "Quick Links" }),
@@ -20427,6 +20466,7 @@ function Footer() {
           { to: "/", label: "Home" },
           { to: "/about", label: "About" },
           { to: "/overview", label: "Overview" },
+          { to: "/products-manufacture", label: "Products Manufactured" },
           { to: "/recognitions", label: "Recognitions" },
           { to: "/appeal", label: "Appeal" },
           { to: "/contact", label: "Contact" }
@@ -23145,6 +23185,7 @@ const navLinks = [
   { href: "/", label: "Home" },
   { href: "/about", label: "About" },
   { href: "/overview", label: "Overview" },
+  { href: "/products-manufacture", label: "Products Manufactured" },
   { href: "/recognitions", label: "Recognitions" },
   { href: "/appeal", label: "Appeal" },
   { href: "/contact", label: "Contact" }
@@ -31314,6 +31355,33 @@ const immediatePlans = [
   "Organizing quarterly awareness programs and capacity-building workshops.",
   "Launching a fund collection drive through NRIs, NGOs, and CSR contributions."
 ];
+const strugglingGoals = [
+  {
+    title: "Beneficiaries",
+    // subtitle: "Critical machinery support",
+    desc: "Increase Divyang beneficiaries up to 500 nos of all categories including visually impaired, hearing impaired, mentally challenged, orthopedically handicapped between age group 18 to 40 years."
+  },
+  {
+    title: "Tie-up Industries",
+    // subtitle: "Skilled inclusive teaching",
+    desc: "Increase the number of tie-up industries up to 250 numbers for manufacture and supply of Variety of products."
+  },
+  {
+    title: "Product Range",
+    // subtitle: "Long-term partnerships",
+    desc: "Increase product range up to 75 numbers for skill development and manufacturing by divyang persons."
+  },
+  {
+    title: "Manufacturing Shades",
+    // subtitle: "Reliable trainee mobility",
+    desc: "Establish shades owned by individual heterogenous groups of divyang person manufacturing their own products."
+  },
+  {
+    title: "Unique Center",
+    // subtitle: "Growth with care",
+    desc: "Establish a unique center where in all types of divyangs like educated, uneducated totally dependant and multiple disability children could be housed for their permanent rehabilitation and welfare."
+  }
+];
 function About() {
   return /* @__PURE__ */ jsxRuntimeExports.jsxs("main", { className: "pt-20", children: [
     /* @__PURE__ */ jsxRuntimeExports.jsx("section", { className: "bg-gradient-to-br from-secondary to-muted py-14", children: /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "container mx-auto px-4 text-center", children: /* @__PURE__ */ jsxRuntimeExports.jsxs(
@@ -31324,7 +31392,7 @@ function About() {
         children: [
           /* @__PURE__ */ jsxRuntimeExports.jsx(Badge, { className: "mb-4 bg-primary text-white", children: "About EDARCH" }),
           /* @__PURE__ */ jsxRuntimeExports.jsx("h1", { className: "font-display text-4xl md:text-5xl font-bold text-foreground mb-4", children: "Our Story & Leadership" }),
-          /* @__PURE__ */ jsxRuntimeExports.jsx("p", { className: "text-muted-foreground font-body max-w-2xl mx-auto", children: "Meet the visionary behind EDARCH and learn about our plans to empower Divyang persons across India and the world." })
+          /* @__PURE__ */ jsxRuntimeExports.jsx("p", { className: "text-muted-foreground font-body max-w-2xl mx-auto", children: "Meet the visionary behind EDARCH and our plans to empower Divyang persons across India and the globe." })
         ]
       }
     ) }) }),
@@ -31358,19 +31426,21 @@ function About() {
               /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "w-12 h-12 rounded-full bg-secondary flex items-center justify-center shrink-0", children: /* @__PURE__ */ jsxRuntimeExports.jsx(User, { className: "w-6 h-6 text-primary" }) }),
               /* @__PURE__ */ jsxRuntimeExports.jsx("h2", { className: "font-display text-2xl md:text-4xl font-bold text-foreground", children: "The President" })
             ] }),
-            /* @__PURE__ */ jsxRuntimeExports.jsx("h3", { className: "font-display text-lg md:text-2xl font-semibold text-accent mb-6", children: "Mr. Dilip Deshpande" }),
-            /* @__PURE__ */ jsxRuntimeExports.jsx("p", { className: "text-foreground/80 font-body text-sm md:text-base leading-relaxed mb-4", children: "Dilip Deshpande, founder president of EDARCH is a Chartered Engineer and was doing his own business as Industrial Safety Consultant for 32 years with his offices in Mumbai, Pune and Panjim-Goa." }),
-            /* @__PURE__ */ jsxRuntimeExports.jsx("p", { className: "text-foreground/80 font-body text-sm md:text-base leading-relaxed mb-4", children: "He was also a President of National Safety Organisation for 12 years. Now he has taken retirement from his business and is devoting his life for the social cause and in particular for the sustainable rehabilitation of Divyang — Differently Abled Persons by developing a unique model of Skill and Entrepreneurship Development." }),
-            /* @__PURE__ */ jsxRuntimeExports.jsx("p", { className: "text-foreground/80 font-body text-sm md:text-base leading-relaxed mb-6", children: "He is also a past president of Rotary Club. He is the recipient of Parkhe Award, Udyogshri Award, Pune Bhushan Award and many more." }),
+            /* @__PURE__ */ jsxRuntimeExports.jsx("h3", { className: "font-display text-lg md:text-2xl font-semibold text-accent mb-6", children: "Dr. Dilip Deshpande" }),
+            /* @__PURE__ */ jsxRuntimeExports.jsx("p", { className: "text-foreground/80 font-body text-sm md:text-base leading-relaxed mb-4", children: "Dilip Deshpande, founder president of EDARCH is a Chartered Engineer and was engaged in his own business as Industrial Safety Consultant for 32 years with his offices in Mumbai, Pune and Panjim-Goa." }),
+            /* @__PURE__ */ jsxRuntimeExports.jsx("p", { className: "text-foreground/80 font-body text-sm md:text-base leading-relaxed mb-4", children: "He was President of National Safety Organisation for 12 years. Now he opted for retirement from his business and devoted his life for the social cause and in particular for the sustainable rehabilitation of Divyang — Differently Abled Persons by developing a unique model of Skill and Entrepreneurship Development." }),
+            /* @__PURE__ */ jsxRuntimeExports.jsx("p", { className: "text-foreground/80 font-body text-sm md:text-base leading-relaxed mb-6", children: "He was District Director of Rotary District 3131 twice and is a past president of Rotary Club. He is the recipient of National Award, International Award, Bussness Forum Award, and many more." }),
             /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "flex flex-wrap items-start justify-start gap-2", children: [
               "Chartered Engineer",
-              "Past Rotary President",
+              "National Award",
+              "International Award",
               "Parkhe Award",
+              "India business forum award",
+              "Past Rotary President",
               "Udyogshri Award",
               "Pune Bhushan Award",
               "Gurukul Award",
-              "Darpan Ratna",
-              "Honorary Doctorate"
+              "Darpan Ratna"
             ].map((award) => /* @__PURE__ */ jsxRuntimeExports.jsx(
               Badge,
               {
@@ -31437,7 +31507,37 @@ function About() {
           )) }) }) })
         ]
       }
-    ) }) })
+    ) }) }),
+    /* @__PURE__ */ jsxRuntimeExports.jsx("section", { className: "py-16 bg-background", children: /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "container mx-auto px-4", children: [
+      /* @__PURE__ */ jsxRuntimeExports.jsx(
+        motion.div,
+        {
+          initial: { opacity: 0, y: 20 },
+          whileInView: { opacity: 1, y: 0 },
+          viewport: { once: true },
+          className: "text-center mb-10",
+          children: /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "flex items-center justify-center gap-3 mb-3", children: [
+            /* @__PURE__ */ jsxRuntimeExports.jsx(Zap, { className: "w-6 h-6 text-accent" }),
+            /* @__PURE__ */ jsxRuntimeExports.jsx("h2", { className: "font-display text-3xl font-bold text-foreground", children: "We Are Struggling to Achieve Immediate Goals" })
+          ] })
+        }
+      ),
+      /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "grid gap-6 sm:grid-cols-2 xl:grid-cols-3", children: strugglingGoals.map((goal, i) => /* @__PURE__ */ jsxRuntimeExports.jsx(
+        motion.div,
+        {
+          initial: { opacity: 0, y: 15 },
+          whileInView: { opacity: 1, y: 0 },
+          viewport: { once: true },
+          transition: { delay: i * 0.08 },
+          children: /* @__PURE__ */ jsxRuntimeExports.jsx(Card, { className: "h-full shadow-card hover:shadow-hover transition-shadow border border-border", children: /* @__PURE__ */ jsxRuntimeExports.jsxs(CardContent, { className: "p-6", children: [
+            /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "flex items-center justify-between mb-2" }),
+            /* @__PURE__ */ jsxRuntimeExports.jsx("h3", { className: "font-display text-xl font-semibold text-foreground mb-2", children: goal.title }),
+            /* @__PURE__ */ jsxRuntimeExports.jsx("p", { className: "text-muted-foreground font-body text-sm leading-relaxed", children: goal.desc })
+          ] }) })
+        },
+        goal.title
+      )) })
+    ] }) })
   ] });
 }
 const ways = [
@@ -44621,25 +44721,25 @@ const statsData = [
 const quickLinks = [
   {
     title: "About EDARCH",
-    desc: "Learn about our founder Dilip Deshpande and our mission for sustainable rehabilitation.",
+    desc: "Our founder Dr. Dilip Deshpande and our mission for sustainable rehabilitation.",
     href: "/about",
     color: "from-sky-50 to-teal-50 border-teal-200"
   },
   {
     title: "Overview",
-    desc: "Understand our unique vocational training model and why EDARCH stands apart.",
+    desc: "Understand our unique vocational training module and why EDARCH stands unique.",
     href: "/overview",
     color: "from-orange-50 to-amber-50 border-orange-200"
   },
   {
     title: "Recognitions",
-    desc: "National awards, ISO certification, and recognition from top leaders of India.",
+    desc: "National Award, International Award, Entrepreneurial Award, ISO certification, and recognition from top leaders of India.",
     href: "/recognitions",
     color: "from-green-50 to-emerald-50 border-green-200"
   },
   {
     title: "Support Us",
-    desc: "Join our mission. Donate funds, infrastructure, or your time and expertise.",
+    desc: "Be a part of our mission. Identify beneficiaries and Tie up  with industries, donate funds, infrastructure, or your time and expertise.",
     href: "/appeal",
     color: "from-rose-50 to-pink-50 border-rose-200"
   }
@@ -45030,6 +45130,93 @@ function Overview() {
     ] }) })
   ] });
 }
+function ProductsManufacture() {
+  return /* @__PURE__ */ jsxRuntimeExports.jsxs("main", { className: "pt-20", children: [
+    /* @__PURE__ */ jsxRuntimeExports.jsx("section", { className: "bg-gradient-to-br from-secondary to-muted py-14", children: /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "container mx-auto px-4 text-center", children: /* @__PURE__ */ jsxRuntimeExports.jsxs(motion.div, { initial: { opacity: 0, y: 20 }, animate: { opacity: 1, y: 0 }, children: [
+      /* @__PURE__ */ jsxRuntimeExports.jsx(Badge, { className: "mb-4 bg-primary text-white", children: "Products Manufactured" }),
+      /* @__PURE__ */ jsxRuntimeExports.jsx("h1", { className: "font-display text-4xl md:text-5xl font-bold text-foreground mb-4", children: "Products Manufactured at EDARCH" }),
+      /* @__PURE__ */ jsxRuntimeExports.jsx("p", { className: "text-muted-foreground font-body max-w-2xl mx-auto", children: "EDARCH empowers Divyang persons through skill-based manufacturing, creating high-quality products that support sustainable employment and community impact." })
+    ] }) }) }),
+    /* @__PURE__ */ jsxRuntimeExports.jsx("section", { className: "py-16 bg-white", children: /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "container mx-auto px-4 md:px-12", children: [
+      /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "text-center mb-10", children: [
+        /* @__PURE__ */ jsxRuntimeExports.jsx("p", { className: "text-sm uppercase tracking-[0.24em] text-primary font-semibold mb-2", children: "Product Images" }),
+        /* @__PURE__ */ jsxRuntimeExports.jsx("h2", { className: "font-display text-3xl md:text-4xl font-bold text-foreground", children: "Product Images" }),
+        /* @__PURE__ */ jsxRuntimeExports.jsx("p", { className: "text-foreground/80 font-body max-w-3xl mx-auto mt-4", children: "These images showcase the products manufactured at EDARCH, reflecting our commitment to quality, inclusion, and skilled workmanship." })
+      ] }),
+      /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6", children: [
+        {
+          title: "All Products",
+          src: `${BASE_URL}assets/uploads/EDARCH_All_product.jpg`
+        },
+        {
+          title: "Chakan Products",
+          src: `${BASE_URL}assets/uploads/EDARCH_Chakan_Product.jpg`
+        },
+        {
+          title: "Pirangute Products",
+          src: `${BASE_URL}assets/uploads/EDARCH_Pirangute_Product.jpg`
+        },
+        {
+          title: "Ranjangaon Products",
+          src: `${BASE_URL}assets/uploads/EDARCH_Ranjangaon_Prod.jpg`
+        }
+      ].map((image) => /* @__PURE__ */ jsxRuntimeExports.jsx(
+        motion.div,
+        {
+          initial: { opacity: 0, y: 20 },
+          whileInView: { opacity: 1, y: 0 },
+          viewport: { once: true },
+          transition: { duration: 0.6 },
+          children: /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "overflow-hidden rounded-3xl border border-border shadow-card bg-muted", children: [
+            /* @__PURE__ */ jsxRuntimeExports.jsx(
+              "img",
+              {
+                src: image.src,
+                alt: image.title,
+                className: "h-56 w-full object-cover transition-transform duration-300 hover:scale-105"
+              }
+            ),
+            /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "p-4", children: /* @__PURE__ */ jsxRuntimeExports.jsx("p", { className: "font-medium text-foreground", children: image.title }) })
+          ] })
+        },
+        image.title
+      )) })
+    ] }) }),
+    /* @__PURE__ */ jsxRuntimeExports.jsx("section", { className: "py-16 bg-background", children: /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "container mx-auto px-4", children: /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "grid grid-cols-1 md:grid-cols-3 gap-6", children: [
+      {
+        title: "Quality First",
+        desc: "Every product is inspected and finished with care to meet the needs of our customers and communities.",
+        icon: Sparkles
+      },
+      {
+        title: "Skilled Training",
+        desc: "Participants receive hands-on training in manufacturing, packaging, and logistics to build long-term careers.",
+        icon: Warehouse
+      },
+      {
+        title: "Sustainable Impact",
+        desc: "Production work is structured to support social inclusion, economic independence, and environmental responsibility.",
+        icon: Sparkles
+      }
+    ].map((item) => /* @__PURE__ */ jsxRuntimeExports.jsx(
+      motion.div,
+      {
+        initial: { opacity: 0, y: 20 },
+        whileInView: { opacity: 1, y: 0 },
+        viewport: { once: true },
+        transition: { duration: 0.6 },
+        children: /* @__PURE__ */ jsxRuntimeExports.jsx(Card, { className: "h-full shadow-card border-border", children: /* @__PURE__ */ jsxRuntimeExports.jsxs(CardContent, { className: "p-6", children: [
+          /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "flex items-center gap-3 mb-4", children: [
+            /* @__PURE__ */ jsxRuntimeExports.jsx(item.icon, { className: "w-6 h-6 text-primary" }),
+            /* @__PURE__ */ jsxRuntimeExports.jsx("h3", { className: "font-display text-xl font-semibold text-foreground", children: item.title })
+          ] }),
+          /* @__PURE__ */ jsxRuntimeExports.jsx("p", { className: "text-muted-foreground font-body leading-relaxed", children: item.desc })
+        ] }) })
+      },
+      item.title
+    )) }) }) })
+  ] });
+}
 const awards = [
   {
     id: "pm-award",
@@ -45245,6 +45432,11 @@ const overviewRoute = createRoute({
   path: "/overview",
   component: Overview
 });
+const productsManufactureRoute = createRoute({
+  getParentRoute: () => rootRoute,
+  path: "/products-manufacture",
+  component: ProductsManufacture
+});
 const recognitionsRoute = createRoute({
   getParentRoute: () => rootRoute,
   path: "/recognitions",
@@ -45264,6 +45456,7 @@ const routeTree = rootRoute.addChildren([
   homeRoute,
   aboutRoute,
   overviewRoute,
+  productsManufactureRoute,
   recognitionsRoute,
   appealRoute,
   contactRoute
